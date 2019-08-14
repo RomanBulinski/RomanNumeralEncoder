@@ -28,5 +28,10 @@ public class MainTest {
         assertEquals("DXCI",conversion.solution(591));
     }
 
+    @Test
+    public void test4(){
+        assertEquals("IV",conversion.solution(4));
+    }
+
 
 }
