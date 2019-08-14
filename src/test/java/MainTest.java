@@ -33,5 +33,21 @@ public class MainTest {
         assertEquals("IV",conversion.solution(4));
     }
 
+    @Test
+    public void test89(){
+        assertEquals("LXXXIX",conversion.solution(89));
+    }
+
+    @Test
+    public void test2641(){
+        assertEquals("MMDCXLI",conversion.solution(2641));
+    }
+
+
+//    Testing for: 2641 expected:<MMDC[]XLI> but was:<MMDC[C]XLI>
+
+
+
+
 
 }
